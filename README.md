@@ -28,7 +28,6 @@ Maintainer Stellan Eriksson <micro_se@hotmail.com>
 
 
 ## License
-===============
 Copyright (c) 2019 Stellan Eriksson <micro_seh@hotmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
