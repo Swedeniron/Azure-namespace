@@ -6,13 +6,14 @@ This make it easy to have the same dopoyment in differt enviroments (account) an
 you will have the namespaces saved for the future.
 
 
-1. Create a namespace.json file in ventures                                      
+1. Change the _config.json to your location
 
-2. Run the script "python templator.py"                                          
+2. Create a namespace.json file in ventures                                      
 
-3. The script are creating a folder structure _build/azure/namespace.json/       
+3. Run the script "python templator.py"                                          
+
+4. The script are creating a folder structure _build/azure/namespace.json/       
    and adding a azure-resources.sh file                                          
 
-4. To deploy the new namespace run the azure-resources.sh that are az commands
+5. To deploy the new namespace run the azure-resources.sh that are az commands
    Just check that you are connected to for the right environment dev/stage/prod
- 
