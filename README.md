@@ -1,5 +1,11 @@
 # Python3 script to create namespace in Azure                                    
 
+This python3 script are taking a json files with some values as in-file.
+It run true them and creating outfiles with az commands to ve deployd in Azure
+This make it easy to have the same dopoyment in differt enviroments (account) and 
+you will have the namespaces saved for the future.
+
+
 1. Create a namespace.json file in ventures                                      
 
 2. Run the script "python templator.py"                                          
