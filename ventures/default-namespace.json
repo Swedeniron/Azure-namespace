@@ -1,0 +1,29 @@
+{
+  "teams":["micro_se@hotmail.com", "test_user@hotmail.com"],
+  "gitrepos": [ "frontend", "backend" ],
+  "costCenter":"",
+  "aks":{
+    "dev":{
+      "default":{
+        "limits":{
+          "cpu": "1",
+          "cpu-request": "500m",
+          "memory": "1Gi",
+          "memory-request": "500Mi"
+        }
+      },
+      "environments":[]
+    },
+    "stage":{
+      "default":{
+      }
+    },
+    "prod":{
+      "default":{
+      }
+    }
+  },
+  "azure":{
+    "ProductOwner":""
+  }
+}
