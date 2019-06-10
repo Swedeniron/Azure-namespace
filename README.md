@@ -1,5 +1,6 @@
-# Python3 script to create namespace in Azure ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)                       
+# Python3 script to create namespace in Azure ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)                    
 ===============
+
 This python3 script are taking a json files with some values as in-file.
 It run true them and creating outfiles with az commands to ve deployd in Azure
 This make it easy to have the same dopoyment in differt enviroments (account) and 
