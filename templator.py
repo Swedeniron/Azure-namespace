@@ -6,6 +6,8 @@ from pathlib import Path
 ########################################################################################
 # Python3 script to create namespace in Azure                                          #
 #                                                                                      #
+# 2019-06-10 Stellan Eriksson <micro_se@hotmail.com>                                   #
+#                                                                                      #
 # 1. Create a namespace.json file in ventures                                          #
 # 2. Run the script "python templator.py"                                              #
 # 3. The script are creating a folder structure _build/azure/namespace.json/           #
