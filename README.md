@@ -1,6 +1,3 @@
-# Azure-namespace
-
-
 # Python3 script to create namespace in Azure                                    
 
 1. Create a namespace.json file in ventures                                      
