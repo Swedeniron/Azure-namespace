@@ -1,9 +1,14 @@
-# Python3 script to create namespace in Azure ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)                    
+# Python3 / Powershell script to create namespace in Azure and deploy it![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)                    
 
 This python3 script are taking a json files with some values as in-file.
 It run true them and creating outfiles with az commands to ve deployd in Azure
 This make it easy to have the same dopoyment in differt enviroments (account) and 
 you will have the namespaces saved for the future.
+
+NEW 2019-06-12
+Added a install.ps1 (powershell script)
+Ths script will log you in to Azure and list your accounts.
+Will show the files created by the Python script and deployt it for you.
 
 
 ## Author
@@ -22,10 +27,13 @@ Maintainer Stellan Eriksson <micro_se@hotmail.com>
 4. The script are creating a folder structure _build/azure/namespace.json/       
    and adding a azure-resources.sh file                                          
 
-5. To deploy the new namespace run the azure-resources.sh that are az commands
+5. To deploy the new namespace run the azure-resources.sh (or go to number 6) that are az commands
    Just check that you are connected to for the right environment dev/stage/prod
    You need to be Owner to be allowed to run the commands.
 
+6. Open the powershell and run the ./installer.ps1
+   It will guide you true the install, it's a simple Y/N guide
+   Wish you a Good deployment...
 
 
 ## License
