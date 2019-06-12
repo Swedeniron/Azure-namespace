@@ -5,7 +5,7 @@ It run true them and creating outfiles with az commands to ve deployd in Azure
 This make it easy to have the same dopoyment in differt enviroments (account) and 
 you will have the namespaces saved for the future.
 
-# NEW 2019-06-12
+#### NEW 2019-06-12
 Added a install.ps1 (powershell script)
 This script will log you in to Azure account and list your accounts.
 Will show the files created by the Python script and deployt it for you.
