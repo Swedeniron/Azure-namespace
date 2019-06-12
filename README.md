@@ -15,7 +15,7 @@ Maintainer Stellan Eriksson <micro_se@hotmail.com>
 
 1. Change the _config.json to your location
 
-2. Create a namespace.json file in ventures                                      
+2. Create a namespace.json file in ventures, insted of user@mail.com you can use security-enabled groups for role assignments      
 
 3. Run the script "python templator.py"                                          
 
@@ -24,6 +24,7 @@ Maintainer Stellan Eriksson <micro_se@hotmail.com>
 
 5. To deploy the new namespace run the azure-resources.sh that are az commands
    Just check that you are connected to for the right environment dev/stage/prod
+   You need to be Owner to be allowed to run the commands.
 
 
 
