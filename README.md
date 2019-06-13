@@ -10,6 +10,9 @@ Added a install.ps1 (powershell script)
 This script will log you in to Azure account and list your accounts.
 Will show the files created by the Python script and deployt it for you.
 
+#### Future plan 2019-06-13
+Added a menu for the future.
+Plan was to rebrand https://github.com/Swedeniron/Azure-DevOPS-automatic and add the functions to the install script in powershell insted. Got time feel free to help me out.
 
 ## Author
 Maintainer Stellan Eriksson <micro_se@hotmail.com>
